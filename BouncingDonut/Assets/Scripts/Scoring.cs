@@ -26,12 +26,12 @@ public class Scoring : MonoBehaviour
         if (GameState.state == GameState.gameOver)
         {
             GUI.skin.box.fontSize = 60;
-            GUI.Box(new Rect(Screen.width / 2 - 200, Screen.height / 2 - 50, 400, 100), "Game Over~");
+            GUI.Box(new Rect(Screen.width / 2 - 200, Screen.height / 2 - 50, 400, 100), "Game Over");
         }
 
         if (GameState.state == GameState.levelComplete)
         {
-            GUI.skin.box.fontSize = 60;
+            GUI.skin.box.fontSize = 50;
             GUI.Box(new Rect(Screen.width / 2 - 200, Screen.height / 2 - 50, 400, 100), "Level Complete");
 
         }
@@ -39,7 +39,7 @@ public class Scoring : MonoBehaviour
         if (GameState.state == GameState.Success)
         {
             GUI.skin.box.fontSize = 40;
-            GUI.Box(new Rect(Screen.width / 2 - 200, Screen.height / 2 - 50, 400, 100), "Congratulations～");
+            GUI.Box(new Rect(Screen.width / 2 - 200, Screen.height / 2 - 50, 400, 100), "Congratulations");
 
         }
     }

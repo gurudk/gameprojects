@@ -5,23 +5,24 @@ public class donut : MonoBehaviour
 {
     public Rigidbody2D rigidBody;
     float levelCompleteTimer;
+    float gameCompleteTimer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
         levelCompleteTimer = 1.0f;
+        gameCompleteTimer = 5.0f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (GameState.state == GameState.levelComplete || GameState.state == GameState.Success)
+        if (GameState.state == GameState.levelComplete)
         {
             rigidBody.linearVelocity = Vector2.zero;
             levelCompleteTimer -= Time.deltaTime;
 
             if (levelCompleteTimer <= 0.0f)
-
             {
                 if (GameState.level == 1)
                 {
@@ -55,6 +56,8 @@ public class donut : MonoBehaviour
                     }
                 }
             }
+
+
         }
 
         if (GameState.state == GameState.gamePlay)
@@ -62,6 +65,20 @@ public class donut : MonoBehaviour
             if (transform.position.y < -10.0f)
             {
                 GameState.state = GameState.gameOver;
+            }
+        }
+
+
+        if (GameState.state == GameState.Success || GameState.state == GameState.gameOver)
+        {
+            rigidBody.linearVelocity = Vector2.zero;
+            gameCompleteTimer -= Time.deltaTime;
+            if (gameCompleteTimer < 0.0f)
+            {
+                GameState.level = 1;
+                GameState.state = GameState.gamePlay;
+                Scoring.gamescore = 0;
+                SceneManager.LoadScene("Title");
             }
         }
     }
