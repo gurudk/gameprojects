@@ -14,6 +14,11 @@ public class TitleMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            // 调用退出游戏的函数
+            ExitGame();
+        }
 
     }
 
