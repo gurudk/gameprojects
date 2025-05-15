@@ -44,9 +44,14 @@ public class donut : MonoBehaviour
                     GameState.level = 5;
                     SceneManager.LoadScene("Scenes/Level 5");
                 }
+                if (GameState.level == 5)
+                {
+                    GameState.level = 6;
+                    SceneManager.LoadScene("Scenes/Level 6");
+                }
                 else
                 {
-                    if (GameState.level == 5)
+                    if (GameState.level == 6)
                     {
                         GameState.state = GameState.Success;
                     }
@@ -97,7 +102,7 @@ public class donut : MonoBehaviour
         {
             Scoring.gamescore += 100;
 
-            if (GameState.level == 5)
+            if (GameState.level == 6)
             {
                 GameState.state = GameState.Success;
             }
