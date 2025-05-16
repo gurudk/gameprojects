@@ -29,6 +29,8 @@ public class TitleMenu : MonoBehaviour
 
     public void ExitGame()
     {
+        Debug.Log("Begin exit..");
         Application.Quit();
+        Debug.Log("Should not be executed~");
     }
 }

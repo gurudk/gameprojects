@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,6 +10,9 @@ public class donut : MonoBehaviour
     AudioSource boingA;
     AudioSource boingB;
     AudioSource boingC;
+
+
+    private HashSet<Collider2D> collidedObjects = new HashSet<Collider2D>();
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -111,15 +115,15 @@ public class donut : MonoBehaviour
         }
         else if (collision.gameObject.name == "DonutBox")
         {
-            // 获取当前物体和对方的碰撞体
-            Collider2D myCollider = collision.collider;
-            Collider2D otherCollider = collision.otherCollider;
+            if (!collidedObjects.Contains(collision.collider))
+            {
+                // 处理碰撞事件
+                Debug.Log("第一次碰撞：" + collision.gameObject.name);
+                collidedObjects.Add(collision.collider);
+                Scoring.gamescore += 100;
+                boingC.Play();
+            }
 
-            // 忽略后续碰撞
-            Physics2D.IgnoreCollision(myCollider, otherCollider, true);
-
-            Scoring.gamescore += 100;
-            boingC.Play();
 
 
 
