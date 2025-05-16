@@ -6,12 +6,21 @@ public class donut : MonoBehaviour
     public Rigidbody2D rigidBody;
     float levelCompleteTimer;
     float gameCompleteTimer;
+    AudioSource boingA;
+    AudioSource boingB;
+    AudioSource boingC;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
         levelCompleteTimer = 1.0f;
         gameCompleteTimer = 5.0f;
+
+        AudioSource[] audios = GetComponents<AudioSource>();
+        boingA = audios[0];
+        boingB = audios[1];
+        boingC = audios[2];
+
     }
 
     // Update is called once per frame
@@ -93,14 +102,26 @@ public class donut : MonoBehaviour
         if (collision.gameObject.name == "WoodPlank")
         {
             Scoring.gamescore += 10;
+            boingA.Play();
         }
         else if (collision.gameObject.name == "Sphere")
         {
             Scoring.gamescore += 50;
+            boingB.Play();
         }
         else if (collision.gameObject.name == "DonutBox")
         {
+            // 获取当前物体和对方的碰撞体
+            Collider2D myCollider = collision.collider;
+            Collider2D otherCollider = collision.otherCollider;
+
+            // 忽略后续碰撞
+            Physics2D.IgnoreCollision(myCollider, otherCollider, true);
+
             Scoring.gamescore += 100;
+            boingC.Play();
+
+
 
             if (GameState.level == 6)
             {
