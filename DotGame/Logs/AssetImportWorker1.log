@@ -263,3 +263,266 @@ Memory consumption went from 147.4 MB to 140.8 MB.
 Total: 6.980449 ms (FindLiveObjects: 0.447542 ms CreateObjectMapping: 0.370193 ms MarkObjects: 3.673848 ms  DeleteObjects: 2.488231 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1048822.562544 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)UpdateMenuTitleForLanguage: 10
+ -> (artifact id: 'e0bf6887fa3b086532a106f36c3fb563') in 0.230280735 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014576 seconds.
+  path: Assets/Scenes/Menus.unity
+  artifactKey: Guid(c4c7ed6dfe54de587a0b7e5fb2e6d0c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Menus.unity using Guid(c4c7ed6dfe54de587a0b7e5fb2e6d0c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f354e338d7cb162d82c7c65f2bfc2d30') in 0.002020573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/art/Dottima Face.xcf
+  artifactKey: Guid(7a9d57aed256f10b08a5010c44231e69) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/Dottima Face.xcf using Guid(7a9d57aed256f10b08a5010c44231e69) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ce804f1b3a0ee9431b3aca681b7b6b9') in 0.001284223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/art/book2.png
+  artifactKey: Guid(98ceb13769496144b80761b0e95e3add) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/book2.png using Guid(98ceb13769496144b80761b0e95e3add) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9e3688d0dfc5bb9277adf1605d0cb85') in 0.039603676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa5873b810d9aec0943afb665bf531e6') in 0.028978112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/art/book3r.png
+  artifactKey: Guid(c11a3a4791cb260f7a45ce66321eccf3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/book3r.png using Guid(c11a3a4791cb260f7a45ce66321eccf3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f247b25397b5474b958bc24a33a880f4') in 0.008035946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.377736 seconds.
+  path: Assets/art/book4r.png
+  artifactKey: Guid(7faa5f9ca43f1e530966844ab97fc948) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/book4r.png using Guid(7faa5f9ca43f1e530966844ab97fc948) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f500ef419b843a9d6bd654ba9ab98e67') in 0.008514838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043944 seconds.
+  path: Assets/bookspalette/book1r_3.asset
+  artifactKey: Guid(19d5d4d059429b50f9c8efedb5636bf8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book1r_3.asset using Guid(19d5d4d059429b50f9c8efedb5636bf8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05ea53835b6ef5eec383aa07b4a9301e') in 0.00836267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/bookspalette/book2_1.asset
+  artifactKey: Guid(e0352e746ae39e17fbe8dfe5053f515b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book2_1.asset using Guid(e0352e746ae39e17fbe8dfe5053f515b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd83ab3161ee307521828b42fb6ba1b47') in 0.00292134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/art/menubackground.jpg
+  artifactKey: Guid(a8bf343b64dd7af37bf3deca42c5170a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/art/menubackground.jpg using Guid(a8bf343b64dd7af37bf3deca42c5170a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c943465c286f7a57a38d6fc3510aecb') in 0.01074941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/bookspalette/book2_0.asset
+  artifactKey: Guid(24307c423aa6627feb8046d1e81c847b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book2_0.asset using Guid(24307c423aa6627feb8046d1e81c847b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73e04184e1c73855f68977c699e29627') in 0.002518961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/bookspalette/BooksPalette.prefab
+  artifactKey: Guid(bcd17dfde0f7e3eab9bed276c35fa20a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/BooksPalette.prefab using Guid(bcd17dfde0f7e3eab9bed276c35fa20a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '231024e1ef205107b9945212b466bf10') in 0.012424003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/bookspalette/book3r_1.asset
+  artifactKey: Guid(cacfb9105fb6a8faca34a8ddbf4ea13c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book3r_1.asset using Guid(cacfb9105fb6a8faca34a8ddbf4ea13c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2056eb1f22e98145696a055009a51b6b') in 0.004537123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/bookspalette/book4_3.asset
+  artifactKey: Guid(cd32994d7839e95748832e8729e91078) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book4_3.asset using Guid(cd32994d7839e95748832e8729e91078) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd7070a1a668ad2fc968e7173ab2d75b') in 0.002137582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/bookspalette/book4r_1.asset
+  artifactKey: Guid(3dd2b1280f96b1e41ad25e46b9a9acb9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book4r_1.asset using Guid(3dd2b1280f96b1e41ad25e46b9a9acb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abae23fe04adbdc4acf2f061a83969e5') in 0.002145758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/bookspalette/book2_2.asset
+  artifactKey: Guid(34c0909701da065ffa6748893cfc87ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book2_2.asset using Guid(34c0909701da065ffa6748893cfc87ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e88a7359864f66fbfc99fd29aa29aa6') in 0.002050511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/bookspalette/book4r_2.asset
+  artifactKey: Guid(8d7b7c1d7cafeada8b0ba75cb37118ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book4r_2.asset using Guid(8d7b7c1d7cafeada8b0ba75cb37118ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b7e10de78cae2593935e2a20ddc9dcd') in 0.002220804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/bookspalette/book4r_3.asset
+  artifactKey: Guid(8fb6b10c840f412c0959ce4d54191524) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book4r_3.asset using Guid(8fb6b10c840f412c0959ce4d54191524) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab313ee12bf9e1fa22c5006dbbd6bd58') in 0.002137337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/bookspalette/book2r_3.asset
+  artifactKey: Guid(4d804b77be73da7929de394499688f1d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book2r_3.asset using Guid(4d804b77be73da7929de394499688f1d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf8353ef33f54604fc6ef20cbb584c84') in 0.002112258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/bookspalette/book1_3.asset
+  artifactKey: Guid(9884474b463681650b3896daa80b8451) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book1_3.asset using Guid(9884474b463681650b3896daa80b8451) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ec0c6d3d42d429b5ad872eab8fe8380') in 0.002096534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/bookspalette/book2r_2.asset
+  artifactKey: Guid(096e8db00cea8764abd0225595749533) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book2r_2.asset using Guid(096e8db00cea8764abd0225595749533) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b84290374243b77b5d0c096aaf541be') in 0.00212267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/bookspalette/book2r_0.asset
+  artifactKey: Guid(67c88f92d82ba3986aad8c3db0fd5494) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book2r_0.asset using Guid(67c88f92d82ba3986aad8c3db0fd5494) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37d58537a6ecabc855aefa50ebbf4787') in 0.002494417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/bookspalette/book1_2.asset
+  artifactKey: Guid(e07bc965785c9089da501200fefd8eff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book1_2.asset using Guid(e07bc965785c9089da501200fefd8eff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afa6a56f53a95b53a6805c94b6ac2676') in 0.002474855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/bookspalette/book3r_0.asset
+  artifactKey: Guid(d692bb19e9d2052709af5e62c492f2dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book3r_0.asset using Guid(d692bb19e9d2052709af5e62c492f2dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47fb51a788675d7b102abbb541de796d') in 0.002166055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/bookspalette/book3_2.asset
+  artifactKey: Guid(6c5e204d6710ff213a20d45fddc78adb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book3_2.asset using Guid(6c5e204d6710ff213a20d45fddc78adb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f94618c2ce1dabdd21e9e1df3d33b3c2') in 0.003259932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/bookspalette/book3r_2.asset
+  artifactKey: Guid(7b1eb90129d6a2771a635c634500c32a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/bookspalette/book3r_2.asset using Guid(7b1eb90129d6a2771a635c634500c32a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46789e133bb66ea3cfa538073aa95223') in 0.002584927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.475 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.504 seconds
+Domain Reload Profiling: 980ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (204ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (115ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (504ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (344ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (211ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6586 unused Assets / (4.4 MB). Loaded Objects now: 7259.
+Memory consumption went from 148.0 MB to 143.6 MB.
+Total: 5.866109 ms (FindLiveObjects: 0.381055 ms CreateObjectMapping: 0.219297 ms MarkObjects: 3.479253 ms  DeleteObjects: 1.785996 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+
+SDL leaked 2 allocations
